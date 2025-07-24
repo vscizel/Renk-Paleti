@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.color-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px #999;
+}
+
+.color-code {
+  font-size: 12px;
+  font-family: monospace;
+  user-select: none;
+}
+
+#palette {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#colorPickers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.color-input {
+  width: 60px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
